@@ -1,0 +1,16 @@
+{
+  "name": "blockchain",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "compile": "hardhat compile",
+    "node": "hardhat node",
+    "deploy": "hardhat run scripts/deploy.ts --network localhost"
+  },
+  "devDependencies": {
+    "hardhat": "^2.22.1",
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "typescript": "^5.3.3",
+    "@types/node": "^20.11.30"
+  }
+}
